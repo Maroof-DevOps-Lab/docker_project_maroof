@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/dockerapp-1.0.0.jar app.jar
 
 # Step 4: Expose port 8080 to access the app
-EXPOSE 8080
+EXPOSE 8082
 
 # Step 5: Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
